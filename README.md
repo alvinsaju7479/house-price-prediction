@@ -93,6 +93,19 @@ A simple **Streamlit web application** allows users to input house features and 
 ```bash
 streamlit run app/streamlit_app.py
 ```
+---
+
+## 📸 Streamlit App Screenshot
+
+Below is a screenshot of the interactive house price prediction web application built using Streamlit.
+
+![Streamlit App Screenshot](reports/figures/streamlit_app.png)
+
+The app allows users to:
+- Input house features
+- Get real-time price predictions
+- Interact with a trained ML model through a simple UI
+
 📁 Project Structure
 ```text
 house-price-prediction/
@@ -119,17 +132,27 @@ house-price-prediction/
 └── README.md
 
 ```
-▶️ How to Run the Project
-1️⃣ Install dependencies
+## ▶️ How to Run the Project
+### 1️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-2️⃣ Train the model
+### 2️⃣ Train the model
+```bash
 python src/train.py
+```
 
-3️⃣ Evaluate the model
+### 3️⃣ Evaluate the model
+```bash
 python src/evaluate.py
+```
 
-4️⃣ Generate feature importance plot
+### 4️⃣ Generate feature importance plot
+```bash
 python src/feature_importance.py
-5️⃣ Run Streamlit app
+```
+### 5️⃣ Run Streamlit app
+```bash
 streamlit run app/streamlit_app.py
+```
